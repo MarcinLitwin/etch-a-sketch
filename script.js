@@ -9,7 +9,7 @@ for (let n = 0; n < 16; n++) {
         square.setAttribute('class', 'squareDiv');
         square.style.width = `${Math.floor(innerWidth / 16)}vh`;
         square.addEventListener(
-            'mousedown',
+            'mouseover',
             () =>
                 (square.style.background = `rgb(${Math.random() * 255},${
                     Math.random() * 255
@@ -41,7 +41,7 @@ function newGrid() {
             square.setAttribute('class', 'squareDiv');
             square.style.width = `${Math.floor(innerWidth / ammount)}vh`;
             square.addEventListener(
-                'mousedown',
+                'mouseover',
                 () =>
                     (square.style.background = `rgb(${Math.random() * 255},${
                         Math.random() * 255
