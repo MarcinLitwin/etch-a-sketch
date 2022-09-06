@@ -1,0 +1,33 @@
+body {
+    background-color: papayawhip;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 10px;
+}
+.squareDiv {
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 5vw;
+    aspect-ratio: 1/1;
+}
+
+.horizontalLine {
+    display: flex;
+    gap: 10px;
+}
+
+.squareDiv:hover {
+    background-color: transparent;
+}
