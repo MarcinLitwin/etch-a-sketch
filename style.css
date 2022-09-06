@@ -27,7 +27,3 @@ body {
     gap: 10px;
     width: 99vw;
 }
-
-.squareDiv:hover {
-    background-color: transparent;
-}

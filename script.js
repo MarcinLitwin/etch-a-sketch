@@ -9,16 +9,16 @@ for (let n = 0; n < 16; n++) {
         square.setAttribute('class', 'squareDiv');
         square.style.width = `${Math.floor(innerWidth / 16)}vh`;
         square.addEventListener(
-            'mouseover',
+            'mousedown',
             () =>
                 (square.style.background = `rgb(${Math.random() * 255},${
                     Math.random() * 255
                 },${Math.random() * 255}`)
         );
-        square.addEventListener(
+        /*square.addEventListener(
             'mouseleave',
             () => (square.style.background = 'tomato')
-        );
+        ); */
         lineContainer.appendChild(square);
     }
     container.appendChild(lineContainer);
@@ -41,16 +41,16 @@ function newGrid() {
             square.setAttribute('class', 'squareDiv');
             square.style.width = `${Math.floor(innerWidth / ammount)}vh`;
             square.addEventListener(
-                'mouseover',
+                'mousedown',
                 () =>
                     (square.style.background = `rgb(${Math.random() * 255},${
                         Math.random() * 255
                     },${Math.random() * 255}`)
             );
-            square.addEventListener(
+            /*square.addEventListener(
                 'mouseleave',
                 () => (square.style.background = 'tomato')
-            );
+            ); */
             lineContainer.appendChild(square);
         }
         container.appendChild(lineContainer);
